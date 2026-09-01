@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeBirdTool</title>
+    <meta name="description" content="A professional AI product photography editor using the Nano Banana model. Upload your product, define the style, and generate stunning marketing assets in seconds." />
+    <meta property="og:title" content="FreeBirdTool" />
+    <meta property="og:description" content="A professional AI product photography editor using the Nano Banana model. Upload your product, define the style, and generate stunning marketing assets in seconds." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gray: {
+                950: '#000000', // Primary black
+                900: '#0D0D0D', // Secondary deep black
+                850: '#0D0D0D', // Secondary deep black (inputs)
+                800: '#1A1A1A', // Dark gray (borders)
+                750: '#1A1A1A', 
+                700: '#1A1A1A', // Matching border color for consistency
+                600: '#404040',
+                500: '#6B6B6B', // Medium gray (hints)
+                400: '#808080', 
+                300: '#EDEDED', // Off-white labels
+                200: '#EDEDED', // Off-white
+                100: '#FFFFFF', // White
+              },
+              primary: {
+                // Monochrome Primary actions
+                400: '#FFFFFF', 
+                500: '#EDEDED', // Hover state
+                600: '#FFFFFF', // Main button bg
+                900: '#000000',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #000000; /* Primary black */
+        color: #FFFFFF; /* Primary white */
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0D0D0D; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1A1A1A; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6B6B6B; 
+      }
+    </style>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "FreeBirdTool",
+  "description": "A professional AI product photography editor using the Nano Banana model. Upload your product, define the style, and generate stunning marketing assets in seconds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
